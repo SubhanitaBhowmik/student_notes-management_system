@@ -44,6 +44,14 @@ const HomePage = () => {
 
       {isRateLimited && <RateLimitedUI/>}
       <div className="max-w-7xl mx-auto p-4 mt-6">
+        <div className="mb-6">
+      <h1 className="text-3xl font-bold text-base-content">
+       My Study Notes
+      </h1>
+   <p className="text-base-content/60 mt-1">
+    Keep your study notes organized in one place.
+   </p>
+</div>
         {loading && <div className='text-center text-primary py-10'> Loading notes...</div>}
         {notes.length == 0 && !isRateLimited && <NotesNotFound/>}
 
