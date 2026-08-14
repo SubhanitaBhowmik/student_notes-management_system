@@ -47,11 +47,11 @@ app.use(rateLimiter);
 app.use("/api/notes",notesRoutes);
 
 if(process.env.NODE_ENV=== "production"){
-    app.use(express.static(path.join(__dirname,"../frontend/latest/dist")))
+    app.use(express.static(path.join(__dirname,"../../frontend/latest/dist")));
 
 
 app.get("*",(req,res)=>{
-    res.sendFile(path.join(__dirname,"../frontend/latest","dist","index.html"))
+    res.sendFile(path.join(__dirname,"../../frontend/latest","dist","index.html"));
 })
 
 }
