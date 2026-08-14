@@ -1,0 +1,21 @@
+{
+  "name": "student_notes-management_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubhanitaBhowmik/student_notes-management_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SubhanitaBhowmik/student_notes-management_system/issues"
+  },
+  "homepage": "https://github.com/SubhanitaBhowmik/student_notes-management_system#readme"
+}
